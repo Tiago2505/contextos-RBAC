@@ -3,6 +3,7 @@ import { useAuth } from "../contexts/AuthContext";
 import { Ionicons } from "@expo/vector-icons";
 import { StyleSheet } from "react-native";
 import HomeScreen from "../screens/HomeScreen";
+import SettingsScreen from "../screens/SettingsScreen";
 
 export type TabsParamList = {
   Settings: undefined;
