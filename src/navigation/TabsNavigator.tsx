@@ -2,6 +2,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { useAuth } from "../contexts/AuthContext";
 import { Ionicons } from "@expo/vector-icons";
 import { StyleSheet } from "react-native";
+import HomeScreen from "../screens/HomeScreen";
 
 export type TabsParamList = {
   Settings: undefined;
