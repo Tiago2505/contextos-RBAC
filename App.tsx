@@ -6,5 +6,9 @@ import StackNavigator from "./src/navigation/StackNavigator";
 import { AuthProvider } from "./src/contexts/AuthContext";
 
 export default function App() {
- 
+  return (
+      <NavigationContainer ref={navigationRef}>
+        <StackNavigator />
+      </NavigationContainer>
+  );
 }
