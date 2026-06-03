@@ -8,7 +8,7 @@ export default function SettingScreen(){
 
         <View>
 
-            <Text style={styles.text}>'Estas en settings'</Text>
+            <Text style={styles.text}>Estas en settings</Text>
 
 
         </View>
