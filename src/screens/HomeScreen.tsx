@@ -1,4 +1,4 @@
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
 import CustomButton from "../components/CustomButton";
 import { TabsParamList } from "../navigation/TabsNavigator";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
@@ -15,6 +15,7 @@ export default function HomeScreen(props: Props) {
   return (
     <View style={styles.container}>
       <CustomButton textButton={"Logout"} onPress={() => logout(navigation)} />
+        <Text>Solo administradores pueden ver la pestaña settings</Text>
     </View>
   );
 }
